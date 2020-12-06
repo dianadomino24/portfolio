@@ -4,6 +4,6 @@
     min-height: 75px;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1330px;
-    min-width: 1280px;
+    max-width: 1220px;
+    box-sizing: border-box;
 }

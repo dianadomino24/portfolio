@@ -7,23 +7,15 @@
     <meta name='description' content='Diana Vlasenkova portfolio'>
     <meta name='keywords' content='html, css, javascript'>
     <meta name='author' content='Diana Vlasenkova'>
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./style.css">
     <title>Portfolio</title>
 </head>
 
-<body class='page'>
+<body class='page centered-block'>
     <header class="header centered-block">
-        <h1 class='centered-block'>
-            <a href="#" class="header__link">Hi, I'm Diana and I enjoy programming!</a>
-            <p class="header__text">I'm a front-end developer and here are some of my projects accomplished since spring 2020.</p>
-            <svg class="svg-inline--fa fa-html5 fa-w-12 stack__icon" aria-hidden="true" focusable="false" data-prefix="fab"
-              data-icon="html5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z">
-              </path>
-            </svg>
-        </h1>
+        <h1 class='header__title centered-block'>Hi, I'm Diana and I enjoy programming!</h1>
+        <div class="header__img"></div>
+        <p class="header__text">I'm a front-end developer and here are some of my projects accomplished since spring 2020.</p>
+
     </header>
     <nav class="menu centered-block page__menu">
         <a href="#skills" class="menu__link menu__link_active">My skills</a>
@@ -34,7 +26,7 @@
     </nav>
     <main class="content centered-block">
       <section class="stack">
-        <h2 class="stack__title section-title">My skills</h2>
+        <h2 class="stack__title content__title">My skills</h2>
         <ul class="stack__list">
           <li class="stack__element">
             <i class="stack__icon fab fa-html5"></i>
@@ -53,7 +45,7 @@
             <p class="stack__text">React</p>
           </li>
           <li class="stack__element">
-            <i class="stack__icon stack__icon far fa-triangle"></i>
+            <i class="stack__icon stack__icon fab fa-triangle"></i>
             <p class="stack__text">Nuxt</p>
           </li>
           <li class="stack__element">

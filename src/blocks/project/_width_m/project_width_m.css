@@ -1,3 +1,4 @@
 .project_width_m {
-    width: 306px;
+    max-width: 300px;
+    width: 100%;
 }

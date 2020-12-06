@@ -4,8 +4,9 @@
 @import url('../blocks/page/__menu/page__menu.css');
 
 @import url('../blocks/header/header.css');
-@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__title/header__title.css');
 @import url('../blocks/header/__img/header__img.css');
+@import url('../blocks/header/__text/header__text.css');
 
 @import url('../blocks/centered-block/centered-block.css');
 
@@ -32,11 +33,6 @@
 
 @import url('../blocks/menu/menu.css');
 @import url('../blocks/menu/__link/menu__link.css');
-
-@import url('../blocks/profile/profile.css');
-@import url('../blocks/places/places.css');
-@import url('../blocks/place/place.css');
-@import url('../blocks/link/link.css.css');
 
 @import url('../blocks/stack/stack.css');
 @import url('../blocks/stack/__title/stack__title.css');
