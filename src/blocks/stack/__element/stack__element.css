@@ -1,0 +1,11 @@
+.stack__element {
+    list-style: none;
+    text-align: center;
+    padding: 15px 0 20px;
+}
+
+@media all and (max-width: 1024px) {
+    .stack__element {
+        padding: 5px 0 10px;
+    }
+}

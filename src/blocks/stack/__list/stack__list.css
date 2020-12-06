@@ -1,0 +1,17 @@
+.stack__list {
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-auto-rows: 1fr;
+    justify-items: center;
+}
+
+@media all and (max-width: 1024px) {
+    .stack__list {
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    }
+}

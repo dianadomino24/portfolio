@@ -1,0 +1,5 @@
+.social__link {
+    text-decoration: none;
+    transition: color 300ms ease-out;
+    color: #10191e;
+}

@@ -1,0 +1,53 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/page/__menu/page__menu.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__img/header__img.css');
+
+@import url('../blocks/centered-block/centered-block.css');
+
+@import url('../blocks/content/content.css');
+@import url('../blocks/content/__title/content__title.css');
+
+@import url('../blocks/flex-row/flex-row.css');
+@import url('../blocks/flex-row/_space_bottom/flex-row_space_bottom.css');
+@import url('../blocks/flex-row/_reversed/flex-row_reversed.css');
+@import url('../blocks/flex-column/flex-column.css');
+@import url('../blocks/flex-column/_reversed/flex-column_reversed.css');
+
+@import url('../blocks/list/list.css');
+
+@import url('../blocks/project/project.css');
+@import url('../blocks/project/_width_l/project_width_l.css');
+@import url('../blocks/project/_width_m/project_width_m.css');
+@import url('../blocks/project/_height_l/project_height_l.css');
+@import url('../blocks/project/_height_m/project_height_m.css');
+@import url('../blocks/project/_height_s/project_height_s.css');
+@import url('../blocks/project/_height_xl/project_height_xl.css');
+@import url('../blocks/project/__video/project__video.css');
+@import url('../blocks/project/__overlay/project__overlay.css');
+
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__link/menu__link.css');
+
+@import url('../blocks/profile/profile.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/place/place.css');
+@import url('../blocks/link/link.css.css');
+
+@import url('../blocks/stack/stack.css');
+@import url('../blocks/stack/__title/stack__title.css');
+@import url('../blocks/stack/__list/stack__list.css');
+@import url('../blocks/stack/__element/stack__element.css');
+@import url('../blocks/stack/__icon/stack__icon.css');
+@import url('../blocks/stack/__text/stack__text.css');
+
+@import url('../blocks/footer/footer.css');
+
+@import url('../blocks/social/social.css');
+@import url('../blocks/social/__element/social__element.css');
+@import url('../blocks/social/__link/social__link.css');
+@import url('../blocks/social/__icon/social__icon.css');

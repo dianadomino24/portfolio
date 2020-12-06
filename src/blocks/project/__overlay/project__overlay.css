@@ -1,0 +1,19 @@
+.project__overlay {
+    opacity: 0;
+    background-color: #ffbd76;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #10191e;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.project__overlay:hover {
+    opacity: 1;
+}

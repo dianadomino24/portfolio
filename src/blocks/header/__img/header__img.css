@@ -1,0 +1,17 @@
+.header__image {
+    max-width: 120px;
+    width: 100%;
+    min-height: 120px;
+    background-image: url('../../../images/diana.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 850px) {
+    .header__image {
+        margin: 0px auto 14px;
+    }
+}

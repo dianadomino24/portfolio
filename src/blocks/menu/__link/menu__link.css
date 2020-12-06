@@ -1,0 +1,12 @@
+.menu__link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #10191e;
+    margin-right: 20px;
+}
+.menu__link_active {
+    text-decoration: underline;
+}
+.menu__link:last-of-type {
+    margin-right: 0;
+}

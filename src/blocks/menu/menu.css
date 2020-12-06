@@ -1,0 +1,9 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    min-height: 75px;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1330px;
+    min-width: 1280px;
+}

@@ -1,0 +1,25 @@
+.social__icon {
+    height: 90px;
+    font-size: 60px;
+    transition: color 300ms ease-out;
+    color: #ffbd76;
+    /* color: #007aff; */
+}
+.stack__icon:hover {
+    color: #007aff;
+    /* color: #89c2ff; */
+}
+
+@media all and (max-width: 768px) {
+    .social__icon {
+        height: 70px;
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .social__icon {
+        height: 60px;
+        font-size: 40px;
+    }
+}
