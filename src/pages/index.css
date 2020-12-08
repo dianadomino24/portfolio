@@ -22,8 +22,11 @@
 @import url('../blocks/list/list.css');
 
 @import url('../blocks/project/project.css');
+@import url('../blocks/js-projects/js-projects.css');
+@import url('../blocks/css-projects/css-projects.css');
 @import url('../blocks/project/_width_l/project_width_l.css');
 @import url('../blocks/project/_width_m/project_width_m.css');
+@import url('../blocks/project/_width_xl/project_width_xl.css');
 @import url('../blocks/project/_height_l/project_height_l.css');
 @import url('../blocks/project/_height_m/project_height_m.css');
 @import url('../blocks/project/_height_s/project_height_s.css');

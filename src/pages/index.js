@@ -1,7 +1,6 @@
-import '@fortawesome/fontawesome-free/js/all.min';
+import '@fortawesome/fontawesome-free/js/all.min'
 import './index.css'
-import debounce from 'lodash/debounce';
-
+import debounce from 'lodash/debounce'
 
 // const projectsButton = document.querySelector('[data-link="#projects"]');
 // const contactsButton = document.querySelector('[data-link="#contact"]');
@@ -12,9 +11,6 @@ import debounce from 'lodash/debounce';
 // const formEmail = contactForm.querySelector('#email');
 // const formMessage = contactForm.querySelector('#message');
 // const toTopButton = document.querySelector('.button_type_to-top');
-
-
-
 
 // const scrollTo = (selector) => {
 //   document.getElementById(selector).scrollIntoView(true);

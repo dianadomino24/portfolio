@@ -4,32 +4,70 @@
     border-radius: 10px;
 }
 
-.project_name_music-album {
-    background-image: url(https://code.s3.yandex.net/web-code/album.png);
-}
-
-.project_name_design-principles {
-    background-image: url(https://code.s3.yandex.net/web-code/design.png);
-}
-
-.project_name_slider {
-    background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
-}
-.project_name_reactive {
-    background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
-}
-
-.project_name_how-to-study {
-    background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
-    order: 3;
-}
-
-.project_name_across-russia {
-    background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
-    order: 2;
+.project_name_news-explorer {
+    background-image: url('../../images/news-expl.png');
 }
 
 .project_name_mesto {
+    background-image: url('../../images/mesto.png');
+}
+
+.project_name_procratinate {
+    grid-area: procratinate;
+}
+
+.project_name_cat {
+    background-image: url('../../images/cat.png');
+    grid-area: cat;
+}
+.project_name_transib {
+    grid-area: transib;
+    background-image: url('../../images/transib3.png');
+}
+.project_name_like {
+    grid-area: like;
+    align-self: end;
+}
+.project_name_counter {
+    grid-area: counter;
+    background-position: center;
+    background-image: url('../../images/counter.png');
+}
+.project_name_player {
+    background-image: url('../../images/turbina.png');
+}
+.project_name_form {
+    grid-area: form;
+    background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
+}
+.project_name_todo-list {
+    grid-area: todo;
+    background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
+}
+
+.project_name_animation {
+    grid-area: anim;
+    background-image: url(../../images/css-anim.gif);
+}
+
+.project_name_how-to-study {
+    grid-area: learn;
+    background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
+}
+
+.project_name_across-russia {
+    grid-area: travel;
+    background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
+}
+
+.project_name_gallery {
+    grid-area: gallery;
+    background-image: url('../../images/gallery.png');
+}
+.project_name_robot {
+    grid-area: robot;
+    background-image: url('../../images/robot.png');
+}
+.project_name_mesto2 {
     background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
-    order: 1;
 }

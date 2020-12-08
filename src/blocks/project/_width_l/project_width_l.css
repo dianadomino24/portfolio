@@ -1,4 +1,12 @@
 .project_width_l {
-    max-width: 600px;
-    width: 100%;
+    width: calc(50% - 8px);
+    margin-right: 16px;
+}
+.project_width_l:last-of-type {
+    margin-right: 0;
+}
+
+@media all and (max-width: 1260px) {
+    .project_width_l {
+    }
 }
