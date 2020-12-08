@@ -1,12 +1,12 @@
 .stack__icon {
     height: 70px;
     font-size: 50px;
-    color: #007aff;
     transition: color 300ms ease-out;
 }
 
-.stack__icon:hover {
-    color: #89c2ff;
+.stack__icon_small {
+    max-height: 50px;
+    margin: 7px 0;
 }
 
 @media all and (max-width: 1024px) {

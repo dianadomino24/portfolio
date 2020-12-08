@@ -1,8 +1,8 @@
 .menu__link {
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     color: #10191e;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 .menu__link_active {
     text-decoration: underline;

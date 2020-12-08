@@ -2,5 +2,11 @@
     color: #10191e;
     font-weight: 500;
     font-size: 28px;
-    max-width: 300px;
+    grid-area: title;
+    text-align: center;
+    line-height: 1.2;
+}
+.header__title span {
+    display: block;
+    font-weight: 700;
 }

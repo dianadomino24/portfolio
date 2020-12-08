@@ -13,6 +13,8 @@
     text-align: center;
     box-sizing: border-box;
     padding: 20px;
+    transition: opacity 300ms ease-out;
+    border-radius: 10px;
 }
 .project__overlay:hover {
     opacity: 0.9;

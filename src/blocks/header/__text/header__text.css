@@ -1,4 +1,8 @@
 .header__text {
     font-size: 22px;
-    max-width: 300px;
+    max-width: 350px;
+    grid-area: text;
+    margin-left: auto;
+    text-align: right;
+    line-height: 1.2;
 }

@@ -2,6 +2,14 @@
     list-style: none;
     text-align: center;
     padding: 15px 0 20px;
+    color: #007aff;
+    transition: color 300ms ease-out;
+}
+.stack__element:hover {
+    color: #9dccff;
+}
+.stack__element:hover .stack__icon {
+    color: #9dccff;
 }
 
 @media all and (max-width: 1024px) {

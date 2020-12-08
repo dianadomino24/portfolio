@@ -1,4 +1,10 @@
 .header {
     height: 300px;
-    display: flex;
+    display: grid;
+    grid-template-areas:
+        'title title'
+        'img  text';
+    grid-gap: 30px;
+    align-items: center;
+    padding-bottom: 50px;
 }
