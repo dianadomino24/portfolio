@@ -1,3 +1,23 @@
 .project_height_l {
     height: 430px;
 }
+@media all and (max-width: 960px) {
+    .project_height_l {
+        height: 360px;
+    }
+}
+@media all and (max-width: 880px) {
+    .project_height_l {
+        height: 310px;
+    }
+}
+@media all and (max-width: 760px) {
+    .project_height_l {
+        height: 400px;
+    }
+}
+@media all and (max-width: 420px) {
+    .project_height_l {
+        height: 340px;
+    }
+}

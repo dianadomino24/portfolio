@@ -8,3 +8,8 @@
     align-items: center;
     padding-bottom: 50px;
 }
+@media all and (max-width: 500px) {
+    .header {
+        grid-gap: 15px;
+    }
+}

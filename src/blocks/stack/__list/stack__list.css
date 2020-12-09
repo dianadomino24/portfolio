@@ -15,3 +15,8 @@
         grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
     }
 }
+@media all and (max-width: 768px) {
+    .stack__list {
+        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    }
+}

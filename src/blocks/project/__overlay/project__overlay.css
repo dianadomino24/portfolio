@@ -19,3 +19,8 @@
 .project__overlay:hover {
     opacity: 0.9;
 }
+@media all and (max-width: 768px) {
+    .project__overlay:hover {
+        font-size: 22px;
+    }
+}

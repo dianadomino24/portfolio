@@ -6,3 +6,40 @@
         'counter transib transib transib';
     grid-gap: 16px;
 }
+@media all and (max-width: 1120px) {
+    .js-projects {
+        grid-template-areas:
+            'procrastinate procrastinate form form'
+            'procrastinate procrastinate todo todo'
+            'transib transib transib  transib'
+            'like like  counter counter';
+    }
+}
+@media all and (max-width: 850px) {
+    .js-projects {
+        grid-gap: 12px;
+    }
+}
+
+@media all and (max-width: 615px) {
+    .js-projects {
+        grid-template-areas:
+            'procrastinate procrastinate '
+            'procrastinate procrastinate '
+            'form todo'
+            'transib transib   '
+            'like counter';
+    }
+}
+@media all and (max-width: 450px) {
+    .js-projects {
+        grid-template-areas:
+            'procrastinate '
+            'procrastinate '
+            'form'
+            'todo'
+            'transib    '
+            'like'
+            ' counter';
+    }
+}

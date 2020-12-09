@@ -5,8 +5,9 @@
 .project_width_l:last-of-type {
     margin-right: 0;
 }
-
-@media all and (max-width: 1260px) {
+@media all and (max-width: 760px) {
     .project_width_l {
+        width: 100%;
+        margin: 0 0 16px;
     }
 }

@@ -5,3 +5,8 @@
     font-weight: 500;
     color: #000;
 }
+@media all and (max-width: 768px) {
+    .stack__text {
+        font-size: 12px;
+    }
+}

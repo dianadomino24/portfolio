@@ -6,3 +6,19 @@
     text-align: right;
     line-height: 1.2;
 }
+@media all and (max-width: 768px) {
+    .header__text {
+        font-size: 18px;
+        max-width: 300px;
+    }
+}
+@media all and (max-width: 500px) {
+    .header__text {
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 380px) {
+    .header__text {
+        font-size: 14px;
+    }
+}

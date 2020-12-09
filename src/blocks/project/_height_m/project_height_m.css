@@ -1,3 +1,13 @@
 .project_height_m {
     height: 290px;
 }
+@media all and (max-width: 1120px) {
+    .project_height_m {
+        height: 250px;
+    }
+}
+@media all and (max-width: 720px) {
+    .project_height_m {
+        height: 200px;
+    }
+}

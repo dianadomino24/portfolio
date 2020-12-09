@@ -6,3 +6,8 @@
 .social__element:last-of-type {
     margin-right: 0;
 }
+@media all and (max-width: 880px) {
+    .social__element {
+        margin-right: 25px;
+    }
+}

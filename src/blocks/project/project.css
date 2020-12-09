@@ -2,6 +2,7 @@
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    background-repeat: no-repeat;
 }
 
 .project_name_news-explorer {
@@ -22,11 +23,13 @@
 }
 .project_name_transib {
     grid-area: transib;
+    background-position: bottom left;
     background-image: url('../../images/transib3.png');
 }
 .project_name_like {
     grid-area: like;
 }
+
 .project_name_counter {
     grid-area: counter;
     background-position: center;
@@ -41,6 +44,7 @@
 }
 .project_name_todo-list {
     grid-area: todo;
+    align-self: end;
     background-image: url('../../images/cat2.png');
 }
 
@@ -56,6 +60,7 @@
 
 .project_name_across-russia {
     grid-area: travel;
+    background-position: bottom left;
     background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
 }
 

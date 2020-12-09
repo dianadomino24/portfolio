@@ -5,3 +5,24 @@
         'robot robot gallery anim anim ';
     grid-gap: 16px;
 }
+@media all and (max-width: 850px) {
+    .css-projects {
+        grid-template-areas:
+            'learn cat'
+            'gallery travel'
+            'robot anim ';
+        grid-gap: 12px;
+    }
+}
+@media all and (max-width: 450px) {
+    .css-projects {
+        grid-template-areas:
+            'learn'
+            'cat'
+            'gallery'
+            'travel'
+            'robot'
+            ' anim ';
+        grid-gap: 12px;
+    }
+}
