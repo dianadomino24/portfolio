@@ -1,7 +1,7 @@
-.js-projects {
+.css-projects {
     display: grid;
     grid-template-areas:
-        'cat travel travel travel learn'
-        'anim anim gallery robot robot';
+        'learn travel travel travel cat'
+        'robot robot gallery anim anim ';
     grid-gap: 16px;
 }

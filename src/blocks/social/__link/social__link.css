@@ -3,3 +3,6 @@
     transition: color 300ms ease-out;
     color: #10191e;
 }
+.social__link:hover .social__icon {
+    transform: scale(1.1);
+}

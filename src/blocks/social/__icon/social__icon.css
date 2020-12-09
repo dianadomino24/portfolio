@@ -1,13 +1,8 @@
 .social__icon {
     height: 90px;
     font-size: 60px;
-    transition: color 300ms ease-out;
+    transition: transform 500ms ease-out;
     color: #ffbd76;
-    /* color: #007aff; */
-}
-.stack__icon:hover {
-    color: #007aff;
-    /* color: #89c2ff; */
 }
 
 @media all and (max-width: 768px) {

@@ -12,12 +12,12 @@
     background-image: url('../../images/mesto.png');
 }
 
-.project_name_procratinate {
-    grid-area: procratinate;
+.project_name_procrastinate {
+    grid-area: procrastinate;
 }
 
 .project_name_cat {
-    background-image: url('../../images/cat.png');
+    background-image: url('../../images/cat2.png');
     grid-area: cat;
 }
 .project_name_transib {
@@ -26,7 +26,6 @@
 }
 .project_name_like {
     grid-area: like;
-    align-self: end;
 }
 .project_name_counter {
     grid-area: counter;
@@ -38,16 +37,16 @@
 }
 .project_name_form {
     grid-area: form;
-    background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
+    background-image: url('../../images/cat.png');
 }
 .project_name_todo-list {
     grid-area: todo;
-    background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
+    background-image: url('../../images/cat2.png');
 }
 
 .project_name_animation {
     grid-area: anim;
-    background-image: url(../../images/css-anim.gif);
+    background-image: url(../../images/css-anim2.gif);
 }
 
 .project_name_how-to-study {
@@ -66,7 +65,8 @@
 }
 .project_name_robot {
     grid-area: robot;
-    background-image: url('../../images/robot.png');
+    background-position: 0 0;
+    background-image: url('../../images/robot3.png');
 }
 .project_name_mesto2 {
     background-image: url(https://code.s3.yandex.net/web-code/mesto.png);

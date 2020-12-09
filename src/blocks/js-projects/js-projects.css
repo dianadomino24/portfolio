@@ -1,8 +1,8 @@
 .js-projects {
     display: grid;
     grid-template-areas:
-        'procratinate procratinate form todo'
-        'procratinate procratinate like like'
+        'procrastinate procrastinate form todo'
+        'procrastinate procrastinate like like'
         'counter transib transib transib';
     grid-gap: 16px;
 }

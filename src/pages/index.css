@@ -45,8 +45,10 @@
 @import url('../blocks/stack/__text/stack__text.css');
 
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
 
 @import url('../blocks/social/social.css');
 @import url('../blocks/social/__element/social__element.css');
 @import url('../blocks/social/__link/social__link.css');
 @import url('../blocks/social/__icon/social__icon.css');
+@import url('../blocks/social/__text/social__text.css');
