@@ -4,7 +4,7 @@
     "description": "css, html, javascript, OOP, webpack",
     "main": "index.js",
     "scripts": {
-        "build": "rimraf ./dist && webpack",
+        "build": "rimraf ./build && webpack",
         "dev": "webpack-dev-server --open --watch",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
@@ -40,13 +40,14 @@
         "mini-css-extract-plugin": "^0.10.0",
         "postcss-loader": "^3.0.0",
         "prettier": "2.1.1",
-        "webpack": "^4.44.1",
+        "webpack": "^4.44.2",
         "webpack-cli": "^3.3.12",
         "webpack-dev-server": "^3.11.0"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.1",
         "core-js": "^3.6.5",
-        "lodash": "^4.17.20"
+        "lodash": "^4.17.20",
+        "rimraf": "^3.0.2"
     }
 }

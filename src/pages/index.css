@@ -1,5 +1,8 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
+
+@import url('../blocks/html/html.css');
+
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__menu/page__menu.css');
 
@@ -52,3 +55,7 @@
 @import url('../blocks/social/__link/social__link.css');
 @import url('../blocks/social/__icon/social__icon.css');
 @import url('../blocks/social/__text/social__text.css');
+
+@import url('../blocks/button/button.css');
+@import url('../blocks/_type/button_type_to-top.css');
+@import url('../blocks/button/_hidden/button_hidden.css');

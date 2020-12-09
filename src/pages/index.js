@@ -10,22 +10,22 @@ import debounce from 'lodash/debounce'
 // const formName = contactForm.querySelector('#name');
 // const formEmail = contactForm.querySelector('#email');
 // const formMessage = contactForm.querySelector('#message');
-// const toTopButton = document.querySelector('.button_type_to-top');
+const toTopButton = document.querySelector('.button_type_to-top');
 
-// const scrollTo = (selector) => {
-//   document.getElementById(selector).scrollIntoView(true);
-// };
+const scrollTo = (selector) => {
+  document.getElementById(selector).scrollIntoView(true);
+};
 
-// const showToTopButton = () => {
-//   if (
-//     document.body.scrollTop > 200 ||
-//     document.documentElement.scrollTop > 200
-//   ) {
-//     toTopButton.classList.remove('button_hidden');
-//   } else {
-//     toTopButton.classList.add('button_hidden');
-//   }
-// };
+const showToTopButton = () => {
+  if (
+    document.body.scrollTop > 400 ||
+    document.documentElement.scrollTop > 400
+  ) {
+    toTopButton.classList.remove('button_hidden');
+  } else {
+    toTopButton.classList.add('button_hidden');
+  }
+};
 
 // projectsButton.addEventListener('click', () => {
 //   scrollTo('projects');
@@ -34,11 +34,11 @@ import debounce from 'lodash/debounce'
 //   scrollTo('contact');
 // });
 
-// window.addEventListener(
-// 'scroll',
-// debounce(() => showToTopButton(), 200)
-// );
+window.addEventListener(
+'scroll',
+debounce(() => showToTopButton(), 200)
+);
 
-// toTopButton.addEventListener('click', () => {
-// scrollTo('header');
-// });
+toTopButton.addEventListener('click', () => {
+scrollTo('header');
+});

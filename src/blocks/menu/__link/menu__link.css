@@ -4,10 +4,14 @@
     color: #10191e;
     margin-right: 40px;
     margin-bottom: 13px;
+    border-bottom: 3px solid transparent;
+    transition: 700ms ease-out;
+    padding-bottom: 4px;
 }
-.menu__link_active {
-    text-decoration: underline;
+.menu__link:hover {
+    border-bottom: 3px solid #006ee6;
 }
+
 .menu__link:last-of-type {
     margin-right: 0;
 }

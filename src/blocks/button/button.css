@@ -1,0 +1,7 @@
+.button {
+    cursor: pointer;
+    display: block;
+}
+.button:focus {
+    outline: thin dotted rgba(255, 255, 255, 0.7);
+}
