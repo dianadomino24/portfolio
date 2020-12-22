@@ -2,13 +2,15 @@
 <html lang="en" class="html">
     <head>
         <meta charset="UTF-8" />
-        <link type = "image/x-icon" rel="icon" href="./images/man-in-hike.ico" />
+        <link type="image/x-icon" rel="icon" href="./images/man-in-hike.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Diana Vlasenkova portfolio" />
-        <meta name="keywords" content="frontend, backend, html, css, javascript" />
+        <meta
+            name="keywords"
+            content="frontend, backend, html, css, javascript"
+        />
         <meta name="author" content="Diana Vlasenkova" />
         <title>Portfolio</title>
-
     <link href="main.css" rel="stylesheet"></head>
 
     <body class="page centered-block">
@@ -180,18 +182,16 @@
             <section id="js">
                 <h2 class="content__title">JavaScript projects</h2>
                 <div class="js-projects">
-                    <a
-                        href="#"
+                    <div
                         class="project project_name_procrastinate project_height_xl"
                     >
-                        <video
-                            class="project__video"
-                            src="https://code.s3.yandex.net/web-code/procrastinate.mov"
-                            autoplay
-                            muted
-                            loop
-                        ></video>
-                    </a>
+                        <a
+                            href="https://github.com/dianadomino24/procrastinate-ideas"
+                            class="project__overlay"
+                            >JS random idea generator</a
+                        >
+                    </div>
+
                     <div class="project project_name_form project_height_m">
                         <a href="#" class="project__overlay"
                             >Interactive form</a
@@ -234,7 +234,11 @@
                     <div
                         class="project project_name_how-to-study project_height_m"
                     >
-                        <a href="#" class="project__overlay">CSS-animation</a>
+                        <a
+                            href="https://github.com/dianadomino24/how-to-learn"
+                            class="project__overlay"
+                            >CSS-animation</a
+                        >
                     </div>
                     <div
                         class="project project_name_across-russia project_height_m"
@@ -289,6 +293,8 @@
             </ul>
             <p class="footer__copyright">&#169; Diana Vlasenkova, 2020.</p>
         </footer>
-        <button class="button button_type_to-top button_hidden " type="button"><i class="fas fa-angle-double-up"></i></button>
+        <button class="button button_type_to-top button_hidden" type="button">
+            <i class="fas fa-angle-double-up"></i>
+        </button>
     <script src="main.js"></script></body>
 </html>
