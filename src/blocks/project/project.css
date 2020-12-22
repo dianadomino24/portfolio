@@ -41,9 +41,10 @@
 }
 .project_name_form {
     grid-area: form;
-    background-image: url('../../images/cat.png');
+    background-image: url('../../images/form2.jpg');
 }
 .project_name_todo-list {
+    background-position: 0 0;
     grid-area: todo;
     align-self: end;
     background-image: url('../../images/cat2.png');
