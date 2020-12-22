@@ -15,6 +15,7 @@
 
 .project_name_procrastinate {
     grid-area: procrastinate;
+    background-image: url(../../images/procrast-gif.gif);
 }
 
 .project_name_cat {

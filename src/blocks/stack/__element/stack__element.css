@@ -3,13 +3,10 @@
     text-align: center;
     padding: 15px 0 20px;
     color: #007aff;
-    transition: color 300ms ease-out;
 }
-.stack__element:hover {
-    color: #9dccff;
-}
+
 .stack__element:hover .stack__icon {
-    color: #9dccff;
+    opacity: 0.6;
 }
 
 @media all and (max-width: 1024px) {

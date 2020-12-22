@@ -1,7 +1,7 @@
 .stack__icon {
     height: 70px;
     font-size: 50px;
-    transition: color 300ms ease-out;
+    transition: opacity 500ms ease-out;
 }
 
 .stack__icon_small {
