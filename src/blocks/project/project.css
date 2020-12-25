@@ -47,7 +47,7 @@
     background-position: 0 0;
     grid-area: todo;
     align-self: end;
-    background-image: url('../../images/cat2.png');
+    background-image: url('../../images/todo-list.jpg');
 }
 
 .project_name_animation {
