@@ -45,6 +45,7 @@
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
+@import url('../blocks/footer/__email/footer__email.css');
 
 @import url('../blocks/social/social.css');
 @import url('../blocks/social/__element/social__element.css');

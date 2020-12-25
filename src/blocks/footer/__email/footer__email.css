@@ -1,0 +1,9 @@
+.footer__email {
+    padding-right: 20px;
+}
+@media all and (max-width: 454px) {
+    .footer__email {
+        display: block;
+        padding-bottom: 7px;
+    }
+}
